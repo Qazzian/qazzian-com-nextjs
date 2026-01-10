@@ -1,0 +1,30 @@
+.site-nav {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	align-items: center;
+
+	background-color: #4e28b7;
+	//box-shadow: inset 0 -1px 4px #0b0913;
+	color: white;
+
+	&__home {
+		padding: 0 1ex;
+		font-size: larger;
+	}
+
+	&__other-pages {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	a {
+		margin-right: 1em;
+		padding: 0 1ex 0 1ex;
+		color: white;
+
+		&:hover {
+			color: #aaadff;
+		}
+	}
+}
